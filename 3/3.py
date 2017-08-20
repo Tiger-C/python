@@ -21,17 +21,16 @@ popped_f=f.pop(0)
 popped_F=f.pop()#pop后括号中不添加数字默认最后一位
 the_third_alphabet='c'
 f.remove(the_third_alphabet)
-print(f)#为什么可以直接输入f而下面不行?
+print(f)
 print(popped_f)
 print(popped_F)
 print("The third alphabet is "+the_third_alphabet.upper()+".")
-msg= 'sahdhsahdias{},dhasidhiaoshdioas{}dasdhasdhasi'.format(f[0],'0000')
-print(msg)
-message="The\tfirst\tEnglish\talphabet\tis\t"+popped_f+",\nthe\tsecond\talphabet\tis\t"+f[0]+",\nthe\tthird\tis\t"+popped_F+"."
-# message=f+["."]#为什么不能直接用f?
+message="The\tfirst\tEnglish\talphabet\tis\t"+popped_f.upper()+",\nthe\tsecond\talphabet\tis\t"+f[0].upper()+",\nthe\tforth\tis\t"+popped_F.upper()+"."
 print(message)
-# print("The\tfirst\tEnglish\talphabet\tis\t"+popped_f+",\nthe\tsecond\talphabet\tis\t"+f+",\nthe\tfourth\tis\t"+popped_F+".")
-#此处亦不行?
+msg= 'sahdhsahdias,{},dhasidhiaoshdioas,{},dasdhasdhasi'.format('88888','0000')
+print(msg)
+
+
 
 
 # #3.3
