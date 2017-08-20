@@ -1,0 +1,11 @@
+{
+    "version": "0.1.0",
+    "command": "Z://python36//python.exe",
+    "isShellCommand": true,
+    "args": ["${file}"],
+    "options": {
+        "env":{
+        "PYTHONIOENCODING": "UTF-8"
+    },
+    "showOutput": "always"
+}
