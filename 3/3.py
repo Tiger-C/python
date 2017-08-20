@@ -15,20 +15,23 @@
 # print(families)
 
 
-#pop删除[如果在删除一个列表元素之后还要用到这个元素则用pop()删除].remove()删除也可以和pop一样再次使用已删除的元素
-f=['a','b','c','d']
-popped_f=f.pop(0)
-popped_F=f.pop()#pop后括号中不添加数字默认最后一位
-the_third_alphabet='c'
-f.remove(the_third_alphabet)
-print(f)
-print(popped_f)
-print(popped_F)
-print("The third alphabet is "+the_third_alphabet.upper()+".")
-message="The\tfirst\tEnglish\talphabet\tis\t"+popped_f.upper()+",\nthe\tsecond\talphabet\tis\t"+f[0].upper()+",\nthe\tforth\tis\t"+popped_F.upper()+"."
-print(message)
-msg= 'sahdhsahdias,{},dhasidhiaoshdioas,{},dasdhasdhasi'.format('88888','0000')
-print(msg)
+# #pop删除[如果在删除一个列表元素之后还要用到这个元素则用pop()删除].remove()删除也可以和pop一样再次使用已删除的元素
+# f=['a','b','c','d']
+# popped_f=f.pop(0)
+# popped_F=f.pop()#pop后括号中不添加数字默认最后一位
+
+# the_third_alphabet='c'#先将一个元素赋值给一个名称
+# f.remove(the_third_alphabet)#用remove删除这个元素之后,
+# print(the_third_alphabet)#可以输出改名称来使该元素重现
+
+# print(f)
+# print(popped_f)
+# print(popped_F)
+# print("The third alphabet is "+the_third_alphabet.upper()+".")
+# message="The\tfirst\tEnglish\talphabet\tis\t"+popped_f.upper()+",\nthe\tsecond\talphabet\tis\t"+f[0].upper()+",\nthe\tforth\tis\t"+popped_F.upper()+"."
+# print(message)
+# msg= 'sahdhsahdias,{},dhasidhiaoshdioas,{},dasdhasdhasi'.format('88888','0000')
+# print(msg)
 
 
 
