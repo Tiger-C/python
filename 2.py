@@ -10,10 +10,12 @@ D=(A," ",B)
 E="'happy birthday '"
 print(C," ",D)
 
+
 message="\tHello,"+C+"!"+"\n\tWe are family."+"\n\tAnd I'll tell you "+E.title()
 
 
 print(message)
+
 
 
 Margin=' 注意前后空白 '
