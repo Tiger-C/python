@@ -44,11 +44,45 @@ courses=['History', 'Math', 'Physics', 'Compsci']
 #尝试着将my_module文件转移到c盘的TEST文件夹中并运行上面代码
 
 #我们可以手动添加文件目录(记得将上面代码注释掉)
-import sys
-sys.path.append('/TEST/My_Module')
+# import sys
+# sys.path.append('/TEST/My_Module')
 
-from my_module import find_index as fi,test
+# from my_module import find_index as fi,test
 
-index =fi(courses,'Math') 
+# index =fi(courses,'Math') 
 
-print(sys.path)
+# print(sys.path)
+
+
+# # 一些模块:
+
+# import random
+
+# random_course = random.choice(courses)
+
+# print(random_course)
+
+# import math
+
+# rads = math.radians(90)#将数字转为弧度
+
+# print(math.sin(rads))#sin90°=1 ?
+# print(math.cos(rads))#???不应该等于0 ???
+
+# import datetime
+
+# today = datetime.date.today()
+# print(today)
+
+# import calendar#日历模块
+
+# print(calendar.isleap(2020))#isleap(闰年)
+
+# import os
+
+# print(os.getcwd())
+# print(os.__file__)
+
+
+
+# import antigravity#这个可以打开一个网页
